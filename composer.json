@@ -1,0 +1,16 @@
+{
+    "name":"fj9140/php-coding-standard",
+    "type":"library",
+    "license": "MIT",
+    "require": {
+        "php":"^8.0",
+        "ext-tokenizer":"*" ,
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "nexusphp/cs-config": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingStandard\\":"src/"
+        }
+    }
+}
